@@ -22,8 +22,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify --baseURL=
---> https://imanfakih.github.io/acme-corporation/
+        run: hugo --minify --baseURL=https://imanfakih.github.io/acme-corporation/
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
